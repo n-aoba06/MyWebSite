@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: #fff url(background3.jpeg) 0 0 no-repeat;
+  background-size: cover;
+  background: #f9f9f9;
+  
+}
+
+
+h1{
+font-size: 36px;
+padding-left: 8px;
+margin-bottom: 16px;
+color: #555;
+font-weight: 400;
+font-family:  "Rounded Mplus 1c";
+}
+
+h2{
+    color: #000080;
+    font-family:  "Sawarabi Gothic";
+}
+
+
+.face{
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 8px 32px;
+    background: #3B5998;
+    color: #f9f9f9;
+    border: 2px solid #3B5998;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+
+.up{
+    margin-top: 16px;
+    font-size: 14px;
+    padding: 5px 23px;
+    background: #f9f9f9;
+    color: #20B2AA;
+    border: 2px solid #20B2AA;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 2980px;
+    margin: 10px;
+}
+
+
+.face:hover{
+    background: #f9f9f9;
+    color: #3B5998;
+}
+
+
+.up:hover{
+    background: #20B2AA;
+    color: #f9f9f9;
+    border: 2px solid #20B2AA;
+}
+
+
+p{
+    margin-bottom: 16px;
+    width: 440px;
+    font-family:  "Rounded Mplus 1c";
+    font-size: 17px;
+    
+
+}
+
+.box{
+    display: inline-block;
+}
+
+.box2{
+    text-align: left;
+}
+
+.content{
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.top-title{
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #e63c35;
+}
+
+.top-title2{
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #e63c35;
+    float: right;
+    width: 288px;
+}
+
+.right-box{
+    float: right;
+    width: 310px;
+    margin-left: 18px;
+}
+
+.left-box{
+    float: left;
+    width: 288px;
+    margin-right: 28px;
+    margin-left: 20px;
+}
+
+.container{
+    width: 550px;
+    background: #fff;
+    padding: 0px;
+    margin: 0 !important;
+}
+
+.container2{
+    width: 850px;
+    overflow: hidden;
+    background: #20B2AA;
+    padding: 4px;
+}
+
+
+.content:last-child{
+    border-bottom: 0;
+}
+
+#header{
+    width: 100vw;
+    height: 10%;
+    overflow: hidden;
+    background: #20B2AA;
+    padding: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+
+#header h1{
+    float: left;
+    color: #f9f9f9;
+    margin-right: 48px;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a{
+    font-size: 19px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 14px 16px 0px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #78E4FF;
+}
+
+.shumi1{
+    margin-top: 16px;    
+    font-size: 23px;
+    padding: 8px 32px;
+    background: #FFFFCD;
+    color: #46CF00;
+    border: 2px solid #20B2AA;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3px;
+    font-family:  "Rounded Mplus 1c";
+}
+
+.shumi2{
+    margin-top: 16px;
+    font-size: 23px;
+    padding: 8px 32px;
+    background: #FFFFCD;
+    color: #46CF00;
+    border: 2px solid #20B2AA;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3px;
+    font-family:  "Rounded Mplus 1c";
+}
+
+.shumi3{
+    margin-top: 16px;
+    font-size: 23px;
+    padding: 8px 32px;
+    background: #FFFFCD;
+    color: #46CF00;
+    border: 2px solid #20B2AA;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 3px;
+    padding: 3px;
+    font-family:  "Rounded Mplus 1c";
+}
+
+.shumi1:hover{
+    background-color: #F5FFFA;
+    color: #75A9FF;
+     border: 2px solid #6D9BFF;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.shumi2:hover{
+    background-color: #F5FFFA;
+    color: #29D453;
+     border: 2px solid #2C8724;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.shumi3:hover{
+    background-color: #F5FFFA;
+    color: #DEB330;
+     border: 2px solid #B08E26;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#main{
+    float: left;
+    margin-left: 20px;
+}
+
+#sidebar{
+    width: 250px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+    float: left;
+    left: 575px;
+    position: absolute;
+    z-index: 1;
+}
+
+#sidebar img{
+    margin-bottom: 16px;
+}
+
+#sidebar h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p{
+    font-size: 16px;
+    box-sizing:padding-box;
+    width: 100%;
+    
+}
+#sidebar3{
+    width: 250px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+    float: left;
+    left: 860px;
+    position: absolute;
+}
+
+#sidebar3 img{
+    margin-bottom: 16px;
+}
+
+#sidebar3 h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar3 p{
+    font-size: 16px;
+    box-sizing:padding-box;
+    width: 100%;
+    
+}
+
+ul{
+width: 550px;
+}
+
+#blue{
+    color: blue;
+}
+
+#yellow{
+    color: #FFCC00;
+}
+
+.main-visual{
+    background: #fff url(koshien7.jpg) 0 0 no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin-bottom: 32px;  
+    padding-top: 90px;
+}
+
+#be{
+    color: #000080;
+    font-family: "Rounded Mplus 1c";
+    margin-top: -4px;
+}
+
+p.new1{
+    width: 70px;
+    height: 70px;
+    border-radius: 49%;
+    background-color:#2C7CFF;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+    position: absolute;
+    left: 490px;
+    top: 555px;
+}
+
+p.new2{
+    width: 70px;
+    height: 70px;
+    border-radius: 49%;
+    background-color:#2C7CFF;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+    position: absolute;
+    left: 770px;
+    top: 555px;
+    z-index: 2;
+}
+
+p.new3{
+    width: 70px;
+    height: 70px;
+    border-radius: 49%;
+    background-color:#2C7CFF;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+    position: absolute;
+    left: 1060px;
+    top: 555px;
+    z-index: 2;
+}
+
+
+p.llll{  
+    color: #4682B4;
+    text-align: left;
+    font-size: 29px;
+    position: absolute;
+    top: 60px;
+    margin-left: 5px;
+    font-family: 'arial black';
+}
+
+.animation1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#contents1 .animation1 .caption{
+    position: absolute;
+    padding: 20px;
+    background: #FF0;
+    height: 160px;
+    width: 160px;
+    top: 0;
+    
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+#contents1 .animation1:hover .caption{
+    -webkit-transform: translate(10px,10px);
+    -ms-transform: translate(10px,10px);
+    -o-transform: translate(10px,10px);
+    transform: translate(10px,10px);
+    opacity: 1;
+    
+}
+
+#contents1 .animation1 .caption h2{
+    color: #004;
+    font-size: 15px;
+}
+
+#contents1 .animation1 .caption h3{
+    color: #004;
+    font-size: 20px;
+    
+}
+
+
+
+
+.animation2{
+    position: relative;
+    width: 200px;
+    float: left;
+    -webkit-perspective 500;
+    -moz-perspective 500;
+    -ms-perspective 500;
+    -o-perspective 500;
+    -webkit-perspective-origin: left;
+    -moz-perspective-origin: left;
+    -ms-perspective-origin:  left;
+    -o-perspective-origin:  left;
+    perspective-origin:  left;
+    
+}
+
+#contents2 .animation2 .caption{
+    position: absolute;
+    padding: 15px;
+    background: #FF9872;
+    height: 104px;
+    width: 115px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transform: rotateY(-90deg);
+    -ms-transform:  rotateY(-90deg);
+    -o-transform:  rotateY(-90deg);
+    transform:  rotateY(-90deg);
+    -webkit-transition: transform 0.4s, opacity 0.1s 0.3s;
+    -o-transition:  transform 0.4s, opacity 0.1s 0.3s;
+    transition:  transform 0.4s, opacity 0.1s 0.3s;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin:  0 0;
+    -o-transform-origin:  0 0;
+    transform-origin:  0 0;
+    
+}
+
+#contents2 .animation2:hover .caption{
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform:  rotateY(0deg);
+    -o-transform:  rotateY(0deg);
+    transform:  rotateY(0deg);
+    -webkit-transition: transform 0.4s, opacity 0.1s;
+    -o-transition:  transform 0.4s, opacity 0.1s;
+    transition:  transform 0.4s, opacity 0.1s;
+    -webkit-transform: translateX(25%);
+    -ms-transform:  translateX(25%);
+    -o-transform:  translateX(25%);
+    transform:   translateX(25%);
+    
+}
+
+#contents2 .animation2 .caption h2{
+    color: white;
+    font-size: 15px;
+}
+
+#contents2 .animation2 .caption h3{
+    color: white;
+    font-size: 20px;
+    
+}
+
+#contents2 .animation2 img {
+    -webkit-transition: transform 0.4s; 
+    -o-transition:  transform 0.4s;
+    transition:  transform 0.4s;
+}
+
+#contents2 .animation2:hover img {
+    -webkit-transform: translateX(25%);
+    -ms-transform:  translateX(25%);
+    -o-transform:  translateX(25%);
+    transform:   translateX(25%);
+}
+
+
+
+
+
+
+.animation3{
+    position: relative;
+    width: 250px;
+    float: left;
+    left: 20px;
+    -webkit-perspective 500;
+    -moz-perspective 500;
+    -ms-perspective 500;
+    -o-perspective 500;
+    -webkit-perspective-origin: left;
+    -moz-perspective-origin: left;
+    -ms-perspective-origin:  left;
+    -o-perspective-origin:  left;
+    perspective-origin:  left;
+}
+
+#contents3 .animation3 .caption{
+    position: absolute;
+    padding: 20px;
+    background: #483D8B;
+    height: 112px;
+    width: 210px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+    -ms-transform:  rotateX(-90deg);
+    -o-transform:  rotateX(-90deg);
+    transform:  rotateX(-90deg);
+    -webkit-transition: transform 0.4s, opacity 0.1s 0.3s;
+    -o-transition:  transform 0.4s, opacity 0.1s 0.3s;
+    transition:  transform 0.4s, opacity 0.1s 0.3s;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin:  0 0;
+    -o-transform-origin:  0 0;
+    transform-origin:  0 0;
+    
+}
+
+#contents3 .animation3:hover .caption{
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    -ms-transform:  rotateX(0deg);
+    -o-transform:  rotateX(0deg);
+    transform:  rotateX(0deg);
+    -webkit-transition: transform 0.4s, opacity 0.1s;
+    -o-transition:  transform 0.4s, opacity 0.1s;
+    transition:  transform 0.4s, opacity 0.1s;
+    -webkit-transform: translateY(1%);
+    -ms-transform:  translateY(1%);
+    -o-transform:  translateY(1%);
+    transform:   translateY(1%);
+    
+}
+
+#contents3 .animation3 .caption h2{
+    color: white;
+    font-size: 15px;
+}
+
+#contents3 .animation3 .caption h3{
+    color: white;
+    font-size: 20px;
+    
+}
+
+#contents3 .animation3 img {
+    -webkit-transition: transform 0.4s; 
+    -o-transition:  transform 0.4s;
+    transition:  transform 0.4s;
+}
+
+#contents3 .animation3:hover img {
+    -webkit-transform: translateY(11%);
+    -ms-transform:  translateY(11%);
+    -o-transform:  translateY(11%);
+    transform:   translateY(11%);
+}
+
+
+
+
+#main a.fbbutton{
+    font-size: 16px;
+    color: #3B5998;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.fbbutton .edge{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none repeat scroll 0 0 #3B5998;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    
+}
+
+.fbbutton .edge1{
+    width: 1px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.2s;
+}
+
+.fbbutton .edge2{
+    height: 1px;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.fbbutton .edge3{
+    width: 1px;
+    left: auto;
+    right: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    transition-delay: 0.2s;
+}
+
+.fbbutton .edge4{
+    height: 1px;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+a.fbbutton:hover .edge{
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#main a.fbbutton:active{
+    background-color: #3B5998;
+    color: #fff;
+}
+
+
+
+
+
+
+
+#main a.fbbutton2{
+    font-size: 16px;
+    color: #20B2AA;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: right;
+    font-size: 17px;
+    position: absolute;
+    right: 1px;
+    top: 3020px;
+    margin: 10px;
+    
+}
+
+.fbbutton2 .edge{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none repeat scroll 0 0 #20B2AA;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    
+}
+
+.fbbutton2 .edge1{
+    width: 1px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.2s;
+}
+
+.fbbutton2 .edge2{
+    height: 1px;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.fbbutton2 .edge3{
+    width: 1px;
+    left: auto;
+    right: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    transition-delay: 0.2s;
+}
+
+.fbbutton2 .edge4{
+    height: 1px;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+a.fbbutton2:hover .edge{
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#main a.fbbutton2:active{
+    background-color: #20B2AA;
+    color: #fff;
+}
+
+
+.oyt{
+  background: none repeat scroll 0 0 #88f;  
+}
+
+
+
+
+
+
+
+
+.animation4{
+    position: relative;
+    width: 200px;
+    float: left;
+    left: 20px;
+    top: 40px;
+    -webkit-perspective 500;
+    -moz-perspective 500;
+    -ms-perspective 500;
+    -o-perspective 500;
+    -webkit-perspective-origin: left;
+    -moz-perspective-origin: left;
+    -ms-perspective-origin:  left;
+    -o-perspective-origin:  left;
+    perspective-origin:  left;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+    z-index: 2;
+}
+
+#contents4 .animation4 .caption{
+    position: absolute;
+    padding: 20px;
+    background: #f66;
+    height: 50px;
+    width: 160px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+    -ms-transform:  rotateX(-90deg);
+    -o-transform:  rotateX(-90deg);
+    transform:  rotateX(-90deg);
+    -webkit-transition: transform 0.4s, opacity 1.1s 0.3s;
+    -o-transition:  transform 0.4s, opacity 1.1s 0.3s;
+    transition:  transform 0.4s, opacity 1.1s 0.3s;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin:  0 0;
+    -o-transform-origin:  0 0;
+    transform-origin:  0 0;
+    
+}
+
+#contents4 .animation4:hover .caption{
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    -ms-transform:  rotateX(0deg);
+    -o-transform:  rotateX(0deg);
+    transform:  rotateX(0deg);
+    -webkit-transition: transform 2.4s, opacity 1.1s;
+    -o-transition:  transform 2.4s, opacity 1.1s;
+    transition:  transform 2.4s, opacity 1.1s;
+    -webkit-transform: translateY(1%);
+    -ms-transform:  translateY(1%);
+    -o-transform:  translateY(1%);
+    transform:   translateY(1%);
+    
+}
+
+#contents4 .animation4 .caption h2{
+    color: white;
+    font-size: 13px;
+}
+
+#contents4 .animation4 .caption h3{
+    color: white;
+    font-size: 19px;
+    
+}
+
+#contents4 .animation4 img {
+    -webkit-transition: transform 0.4s; 
+    -o-transition:  transform 0.4s;
+    transition:  transform 0.4s;
+}
+
+#contents4 .animation4:hover img {
+    -webkit-transform: translateY(11%);
+    -ms-transform:  translateY(11%);
+    -o-transform:  translateY(11%);
+    transform:   translateY(11%);
+}
+
+
+#contents4 .animation4:hover {
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+}
+
+.lko{
+    font-size: 0.1px;
+}
+
+.hth{
+    padding-top: 272px;
+}
+   
+.cra{
+    font-family:  "Rounded Mplus 1c";
+}
+
+.ekr{
+    margin-left: 20px;
+    font-family:  "Rounded Mplus 1c";
+}
+
+.fb-like{
+    margin-top: 20px;
+}
+
+.iuy{
+    font-family:  "Rounded Mplus 1c";
+}
+
+.wka{
+    font-family:  "Mplus 1p"; 
+}
+
+.aap{
+    background: #D9E5FF;
+    color: #1E90FF;
+    margin-right: 20px;
+    margin-top: 180px;
+    margin-left: 20px;
+    padding:5px;
+    border-radius: 5px;
+    font-family:  "Mplus 1p";
+}
